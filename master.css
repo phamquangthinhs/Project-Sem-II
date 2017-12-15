@@ -1,0 +1,2521 @@
+* {margin: 0;padding: 0;text-decoration: none}
+@font-face {
+    font-family:'as';
+    src: url('font/A&S.ttf')
+}
+@font-face {
+    font-family:'avo';
+    src: url('font/Avo.ttf')
+}
+@font-face {
+    font-family:'mon';
+    src: url('font/Mon.ttf')
+}
+ul {
+    list-style: none;
+}
+
+HTML,BODY{cursor: url("Ex/cur.cur"), auto;}
+A:hover{cursor: url("Ex/curs.cur"), auto;}
+
+/*start*/
+.menu {
+    height: 64px;
+    width: 100%;
+    background-color: #e7e8e9;
+    position: relative
+}
+.line {
+    position: absolute;
+    top: 0;
+    height: 3px;
+    width: 100%;
+    background-color: black;
+}
+.setbar {
+    height: 36px;
+    background-color: #f7931e;
+    width: 100%;
+    transform: translateY(27px);
+    
+}
+.tinhchinh {
+    height: 36px;
+    background-color: #e7e8e9;
+    width: 380px;
+    transform: translateY(-9px);
+    margin: auto;
+}
+.logo {
+    transform: translate(152px,-3976px);
+    display: block;
+}
+.soac {
+    transform: translate(150px,-3850px);
+    display: block;
+}
+.bar {
+    margin: auto;
+    transform: translateY(-45px);
+    display: block;
+    width: 398px;
+    height: 36px;
+    background-repeat: no-repeat;
+}
+.menubar {
+    width: 960px;
+    margin: auto;
+    position: relative;
+    transform: translateY(-74px);
+}
+.content {
+    position: absolute;
+    width: 330px;
+}
+.content a {
+    font-family: avo;
+    color: white;
+    float: left;
+    margin-left: 15px;
+    font-size: 14px;
+    
+}
+.content2 {
+    position: absolute;
+    right: 197px;
+    top: -1px;
+}
+.content2 input {
+    width: 135px;
+    height: 24px;
+    border: none;
+    float: left;
+}
+.market:hover a,.sbtn:hover a {
+    color: #fda843;
+}
+.market {
+    width: 26px;
+    height: 24px;
+    background-color: white;
+    position: absolute;
+    left: 169px;
+}
+.market a {
+    font-family: linea-ecommerce-10;
+    margin: 3px 5px;
+    display: block;
+    color: black;
+}
+.sbtn a {
+    font-family: linea-basic-10;
+    margin: 3px 5px;
+    display: block;
+    transform: rotateY(180deg);
+    color: black;
+}
+.sbtn {
+    width: 26px;
+    height: 24px;
+    background-color: #e7e8e9;
+    position: absolute;
+    left: 135px;
+}
+.content .sang {
+    animation-name: laplanh;
+    animation-duration: 2s;
+}
+.content .sang {
+    animation-name: laplanh;
+    animation-duration: 2s;
+}
+@keyframes laplanh {
+    0% {opacity: 0;transform: scale(2);}
+    50% {opacity: 1;transform: scale(1);}
+    80% {opacity: 0;transform: scale(2);}
+    100% {opacity: 1;transform: scale(1);}
+}
+.cot {
+    width: 229px;
+    height: 3822px;
+    transform: translate(76px,58px);
+}
+.login {
+    position: absolute;
+    right: 10px;
+}
+.login a,.login p {
+    font-family: avo;
+    font-size: 14px;
+    float: left;
+    color: white;
+}
+.login p {
+    margin: 0px 3px;
+}
+/*end menu*/
+
+/*start scroll*/
+.scrollToTop {
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	bottom: 79px;
+	right: 29px;
+	display:none;
+	font-family: linea-arrows-10;
+	font-size: 79px;
+}
+.scrollToTop:hover {
+	text-decoration:none;
+    color: #f7931e;
+}
+/*end scroll*/
+
+/*background*/
+.bg {
+    width: 960px;
+    height: 0px;
+    margin: auto;
+    position: relative;
+}
+.bg .b1 {
+    background-image: url(pic/bgone.png);
+    width: 946px;
+    height: 501px;
+    position: absolute;
+    left: 9px;
+    top: 150px;
+}
+.bg .b2 {
+    background-image: url(pic/btwo.png);
+    width: 937px;
+    height: 495px;
+    position: absolute;
+    top: 963px;
+    left: 9px;
+}
+.bg .b3 {
+    background-image: url(pic/bthree.png);
+    width: 941px;
+    height: 499px;
+    position: absolute;
+    left: 9px;
+    top: 1786px;
+}
+.bg .b4 {
+    background-image: url(pic/bfour.png);
+    width: 939px;
+    height: 497px;
+    position: absolute;
+    top: 2622px;
+    left: 9px;
+}
+.bg .b5 {
+    background-image: url(pic/bfive.png);
+    width: 923px;
+    height: 490px;
+    position: absolute;
+    left: 20px;
+    top: 3580px;
+}
+/*end bg*/
+.ctone {
+    width: 230px;
+    height: 20px;
+    margin: auto;
+    margin-top: 28px;
+    position: relative;
+}
+.man img {
+    position: absolute; 
+    left: -299px;
+    top: 55px;
+}
+
+.texx {
+    position: absolute;
+    top: 284px;
+    left: -287px;
+}
+.texx h2 {
+    font-family: as;
+    font-size: 55px;
+    font-weight: 100;
+    color: #f8721d;
+    transform: translate(-61px,42px) rotate(-12deg);
+}
+
+.texx h1 {
+    font-family: mon;
+    font-size: 56px;
+    color: #f7931e;
+    transform: translate(0px,1px);
+}
+.texx p {
+    font-family: avo;
+    font-size: 12px;
+    width: 231px;
+    transform: translate(5px,30px);
+}
+.name {
+    font-family: mon;
+    font-size: 18px;
+    transform: translate(377px,100px);
+}
+.choscl,.choscl2,.choscl3,.choscl4,.choscl5,.choscl2fix {
+    width: 120px;
+    transform: translate(490px,301px);
+}
+.choscl h3,.choscl2 h3,.choscl3 h3,.choscl4 h3,.choscl5 h3,.choscl2fix h3 {
+    font-family: mon;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.choscl ul,.choscl2 ul,.choscl3 ul,.choscl4 ul,.choscl5 ul,.choscl2fix ul {
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.choscl a,.choscl2 a,.choscl3 a,.choscl4 a,.choscl5 a,.choscl2fix a {
+    width: 10px;
+    height:10px;
+    display: block;
+    margin-left: 9px;
+    float: left;
+    cursor: url("Ex/curs.cur"), auto;
+}
+.cl1 {
+    background-color: yellow;
+}
+.cl2 {
+    background-color: black;
+}
+.cl3 {
+    background-color:  blue;
+}
+.giay,.giay2 {
+    
+transform: translate(-4px,-494px);
+}
+.sanpham p,.sanpham2 p,.sanpham3 p{
+    font-family: mon;
+    font-size: 37px;
+    color: #f7931e;
+    transform: translate(86px,-62px);
+}
+.sanpham{
+    transform: translate(280px,309px);
+}
+.ooo a,.oo2 a,.oo3 a{
+    font-family:linea-arrows-10;
+    color:#f7931e;
+    transform: translate(23px,-112px);
+    font-size: 60px;
+    font-weight: 700;
+    display: block;
+}
+.ooo .op1 ,.oo2 .op2,.oo3 .op2{
+    transform: translate(164px,-176px);
+}
+.buy img {
+    transform: translate(70px,-178px);
+}
+.buy {
+    transform: translateY(21px);
+}
+.buy a {
+    transform: translate(76px,-227px);
+    width: 100px;
+    font-family: mon;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: white;
+    cursor: url("Ex/curs.cur"), auto;
+}
+/*end content one*/
+.cttwo {
+    width: 230px;
+    height: 20px;
+    margin: auto;
+    margin-top: 707px;
+    position: relative;
+}
+.girl img {  
+    position: absolute; 
+    top: 112px;
+    left: -302px;
+}
+.tex2 {
+    position: absolute;
+    top: 63px;
+    left: 329px;
+}
+.tex2 h2,.tex3 h2,.tex4 h2 {
+    font-family: as;
+    font-size: 55px;
+    font-weight: 100;
+    color: #f8721d;
+    transform: translate(-61px,37px) rotate(-12deg);
+}
+.tex2 h1,.tex3 h1,.tex4 h1 {
+    font-family: mon;
+    font-size: 56px;
+    color: #f7931e;
+    transform: translate(0px,1px);
+}
+.tex2 p,.tex3op p,.tex4 p {
+    font-family: avo;
+    font-size: 12px;
+    width: 231px;
+    transform: translate(5px,-3px);
+}
+.name2 {
+    font-family: mon;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    top: 581px;
+    left: 428px;
+}
+.cl4 {
+    background-color: yellow;
+}
+.cl5 {
+    background-color: orange;
+}
+.cl6 {
+    background-color: blue;
+}
+.cttwo .choscl2 {
+    transform: translate(-352px,331px);
+    visibility: hidden;
+}
+.cttwo .choscl2fix {
+    transform: translate(-53px,-656px);
+}
+.sanpham2 {
+    transform: translate(-297px,309px);
+}
+/*end content two*/
+.ctthree {
+    width: 230px;
+    height: 20px;
+    margin: auto;
+    margin-top: 803px;
+    position: relative;
+}
+.tex3 {
+    position: absolute;
+    top: 26px;
+    left: 366px;
+}
+.tex3op {
+    position: absolute;
+    top: 497px;
+    left: 350px;
+}
+.boy img {
+    position: absolute;
+    top: 90px;
+    left: -340px;
+}
+.name3,.name4,.name5 {
+    font-family: mon;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    top: 637px;
+    left: 436px;
+}
+.ctthree .choscl3 {
+    transform: translate(-108px,451px);
+}
+.cl7 {
+    background-color: yellow;
+}
+.cl8 {
+    background-color: red;
+}
+.cl9 {
+    background-color: orangered;
+}
+.sanpham3 {
+    transform: translate(-346px,430px);
+}
+.giay3 {
+    transform: translate(5px,-508px);
+}
+/*end content three*/
+.ct4 {
+    width: 230px;
+    height: 20px;
+    margin: auto;
+    margin-top: 711px;
+    position: relative;
+}
+.lady img {
+    position: absolute;
+    top: 196px;
+    left: -285px;
+}
+.tex4 {
+    position: absolute;
+    top: 490px;
+    left: -278px;
+}
+.ct4 .name4 {
+    top: 842px;
+    left: 448px;
+}
+.cl10 {
+    background-color: white;
+}
+.cl11 {
+    background-color: pink;
+}
+.cl12 {
+    background-color: blue;
+}
+.ct4 .choscl4 {
+    transform: translate(256px,433px);
+}
+.ct4 .op4 {
+    transform: translate(344px,412px);
+}
+/*end content four*/
+.ct5 {
+    width: 230px;
+    height: 20px;
+    margin: auto;
+    margin-top: 1050px;
+    position: relative;
+}
+.flyman img {
+    position: absolute;
+    top: 53px;
+    left: -317px;
+}
+.ct5 .op5 {
+    top: 638px;
+    left: 244px;
+    width: 248px;
+}
+.tex5op {
+    position: absolute;
+    top: 152px;
+    left: 50px;
+}
+.ct5 .name5 {
+    top: 415px;
+    left: -368px;
+}
+.cl13 {
+    background-color: cyan;
+}
+.cl14 {
+    background-color: black;
+}
+.cl15 {
+    background-color: orangered;
+}
+.ct5 .choscl5 {
+    transform: translate(-228px,749px);
+}
+.ct5 .op6 {
+    transform: translate(-111px,625px);
+    height:250px;
+}
+.ct5 .op7 {
+    transform: translate(-18px,-504px);
+}
+.ending {
+    width: 100%;
+    height: 145px;
+    background-color: #e7e8e9;
+    margin-top: 1195px;
+}
+.ctend {
+    height: 145px;
+    width: 960px;
+    margin: auto;
+    margin-top: -187px;
+    position: relative;
+}
+.soac2 {
+    position: absolute;
+    top: 0px;
+    left: 60px;
+}
+.logo2 {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.contacts {
+    font-family: linea-basic-10;
+    font-size: 12px;
+    transform: translateY(-9px);
+}
+.email {
+    position: absolute;
+    top: 20px;
+    left: 248px;
+}
+.ending p {
+    font-family: mon;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #f7931e;
+    float: left;
+    margin-left: 10px;
+    transform: translateY(6px);
+}
+.ending b {
+    float: left;
+    font-size: 20px;
+}
+.plance {
+    position: absolute;
+    top: 50px;
+    left: 224px;
+}
+.phone {
+    position: absolute;
+    top: 82px;
+    left: 200px;
+}
+.ending .copy {
+    position: absolute;
+    right: 10px;
+    bottom: -88px;
+}
+.ending .copy p {
+    color: black;
+}
+/*end css for index.html*/
+
+/*start css for new.html*/
+.bg .bnew {
+    background-image: url(pic/bgsix.jpg);
+    width: 940px;
+    margin: auto;
+    height: 350px;
+    transform: translateY(47px);
+}
+.soac3 {
+    transform: translate(149px,-24px);
+    display: block;
+}
+.logo3 {
+    display: block;
+    margin: -46px auto;
+    position: relative;
+}
+.bg .bsoac {
+    background-image: url(pic/soac2.png);
+    width: 409px;
+    height: 118px;
+    opacity: 0.5;
+    position: absolute;
+    top: 167px;
+    left: 10px;
+}
+.teex {
+    text-transform: uppercase;
+    width: 500px;
+    box-sizing: inherit;
+    position: absolute;
+    top: 174px;
+    left: 31px;
+}
+.teex h3 {
+    font-family: mon;
+    font-size: 18px;
+    margin: 0;
+    font-weight: normal;
+    line-height: normal;
+}
+.teex p {
+    font-family: avo;
+    font-size: 12px;
+    margin: 0 0 0 225px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    line-height: normal;
+    text-transform: none;
+}
+.bg .op8 {
+    font-size: 11px;
+    text-transform: none;
+    width: 370px;
+    margin: 19px 0 0 0;
+}
+.reada {
+    background-image: url(pic/read.png);
+    background-repeat: no-repeat;
+}
+.bg a {
+    font-family: avo;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 82px;
+    height: 25px;
+    margin: 18px 0px 0 280px;
+    padding: 1px 22px;
+    text-transform: capitalize;
+}
+.contentnew {
+    padding-top: 417px;
+    width: 960px;
+    margin: auto;
+    display: block;
+}
+.saleone {
+    float: left;
+    margin: 0px 10px 0px 10px;
+    position: relative;
+}
+.op9 {
+    position: absolute;
+    left: 27px;
+    top:106px;
+}
+.contentnew a {
+    font-family: mon;
+    font-size: 39px;
+    color: #f7931e;
+    transform: rotate(-66deg) translate(0px,0px);
+    position: absolute;
+    top: 45px;
+    left: 125px;
+    text-transform: uppercase;
+}
+.contentnew p {
+    font-family: avo;
+    font-size: 31px;
+    text-transform: uppercase;
+    position: absolute;
+    transform: rotate(-66deg);
+    top: 38px;
+    left: 190px;
+}
+.contentnew .op10 {
+    color: red;
+}
+.contentnew .op11 {
+    top: 131px;
+}
+.contentnew .op12 {
+    left: 196px;
+}
+/*end contentnew*/
+.contentpic {
+    width: 960px;
+    margin: auto;
+    padding-top: 375px;
+    display: block;
+}
+.pic1 {
+    width: 220px;
+    height: 340px;
+    float: left;
+    margin: 0px 10px 0px 10px;
+}
+.pic1 img {
+    border: solid 2.5px #f7931e;
+    width: 100%;
+    box-sizing: border-box;
+}
+.contentpic h4 {
+    font-family: mon;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+}
+.contentpic p {
+    font-family: avo;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 10px;
+}
+.loveit {
+    padding-top: 10px;
+    width: 120px;
+    margin: auto;
+    position: relative;
+}
+.pic1 .loveit img {
+    width: 61px;
+    height: 18px;
+    border: none;
+    padding-left: 55px;
+    box-sizing: content-box;
+}
+.loveit b {
+    font-family: linea-basic-10;
+    font-size: 23px;
+    position: absolute;
+    top: 6px;
+    left: 37px;
+}
+.loveit p {
+    font-family: avo;
+    font-size: 21px;
+    position: absolute;
+    top: -7px;
+    left: 9px;
+}
+.loveit a {
+    font-family: avo;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 8px;
+    left: 68px;
+    color: white;
+}
+.pic1 .op13 {
+    left: -4px;
+}
+/*end content pic*/
+.contentline {
+    width: 960px;
+    margin: auto;
+    padding-top: 343px;
+}
+.first {
+    width: 940px;
+    margin: auto;
+}
+.linef {
+    width: 100%;
+    height: 2px;
+    margin: auto;
+    background-color: #f7931e;
+    display: inline-block;
+}
+.picf {
+    float: left;
+    margin-top: 10px;
+}
+.time {
+    display: block;
+    font-family: avo;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.nd { 
+    float: left; 
+    width: 625px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.nd a {
+    text-transform: uppercase;
+    font-family: mon;
+    font-size: 16px;
+    margin: 16px 0;
+    color: black;
+    display: block;
+}
+.linhtinh {
+    font-family: avo;
+    font-size: 12px;
+}
+/*end content line*/
+.danhso {
+    width: 960px;
+    height: 15px;
+    margin: auto;
+    margin-top: 260px;
+    position: relative;
+    }
+.danhso ul {
+    position: absolute;
+    right: 30px;
+    top: -13px;
+    float: left;
+    }
+.danhso li {
+    float: left;
+    margin-left: 24px;
+}
+.danhso a {
+    font-family: avo;
+    font-size: 24px;
+    color: black;}
+.what {
+    position: absolute;
+    font-family: linea-arrows-10;
+    right: 0px;
+    top: -9px;
+    font-size: 31px;
+    color: #f7931e;
+    font-weight: bold;
+    cursor: url(Ex/curs.cur), auto;
+}
+/*end content danh so*/
+.nhanha {
+    width: 940px;
+    height: 79px;
+    background-color: black;
+    margin: auto;
+    margin-top: 29px;
+}
+.idone {
+    height: 21px;
+    margin-left: 58px;
+}
+.logoid {
+    margin: auto;
+    width: 894px;
+    padding-top: 31px;
+    display: block;
+}
+/*end content nha tai tro*/
+.op14 {
+    margin-top: 220px;
+}
+/*end new.html*/
+
+/*start new detail.html*/
+.tnewd {
+    width: 940px;
+    margin: auto;
+    height: 32px;
+    background-color: #e7e8e9;
+    position: relative;
+    transform: translateY(45px);
+}
+.tnewd b {
+    font-family: linea-arrows-10;
+    font-size: 26px;
+    color: black;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+.tnewd a {
+    font-family: mon;
+    font-size: 14px;
+    color: #f7931e;
+    position: absolute;
+    top: -13px;
+    left: -266px;
+    display: block;
+}
+.vach {
+    width: 5px;
+    height: 32px;
+    background-color: #f7931e;
+    position: absolute;
+    top: 0px;
+    left: 82px;
+}
+.menu .tit {
+    font-family: mon;
+    font-size: 11px;
+    position: absolute;
+    color: black;
+    width: 317px;
+    left: -206px;
+    top: -10px;
+}
+.sofia {
+    position: absolute;
+    right: 0;
+    top: 6px;
+}
+/*ket thuc phan menu new detail*/
+.noidung {
+    width: 960px;
+    margin: auto;
+    margin-top: 96px;
+    position: relative;
+}
+.ndtrai {
+    width: 780px;
+    height: auto;
+    position: absolute;
+    background-color: #e7e8e9;
+    margin: 0 0 0 10px;
+    padding-bottom: 10px;
+}
+.lai {
+    width: 100%;
+    background-color: #f7931e;
+    height: 2px;
+    margin-top: 2px;
+}
+.xxx {
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    width: 485px;
+}
+.ngay {
+    position: absolute;
+    top:9px;
+    left: 7px;
+    width: 100px;
+}
+.ngay b,.ngay p {
+    font-size:17px;
+    font-family: mon;
+    color: white;
+}
+.xxx .ngay p {
+    font-size: 13.5px;
+}
+.giattit {
+    position: absolute;
+    top: 10px;
+    right: 27px;
+}
+.giattit h3 {
+    font-family: mon;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.giattit p {
+    font-size: 12px;
+    font-family: avo;
+    margin-left: 50px;
+}
+.baiviet {
+    width: 760px;
+    margin: auto;
+    background-color: white;
+    opacity: 0.7;
+    height: auto;
+    margin-top: 10px;
+    padding-bottom: 32px;
+}
+.chuvlt {
+    width: 740px;
+    margin: auto;
+    transform: translateY(10px);
+}
+.chuvlt p {
+    font-family: avo;
+    font-size: 14px;
+}
+.caianh {
+    width: 495px;
+    margin: 20px auto 20px auto;
+    
+}
+.caianh img {
+    width: 495px;
+}
+.caianh p {
+    font-family: avo;
+    font-size: 11px;
+    text-align: center;
+}
+.chuky p {
+    font-family: as;
+    font-size: 17px;
+    position: absolute;
+    right: 20px;
+    margin: 10px 0 10px 0;
+}
+/*ket thuc noi dung trai*/
+.ndphai {
+    float: right;
+    margin: 0 10px 0 10px;
+}
+.khoindphai {
+    width: 140px;
+    height: 173px;
+    background-color: #e7e8e9;
+    position: relative;
+    margin-bottom: 20px;
+}
+.khoindphai img {
+    width: 100%;
+}
+.khoindphai .chip {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 8px;
+}
+/*.ket thuc phan noi dung */
+.comment {
+    width: 960px;
+    margin: auto;
+}
+.ndcm {
+    width: 780px;
+    height: 114px;
+    background-color: #e7e8e9;
+    margin: 20px 0 0 10px;
+    position: relative;
+}
+.avatar {
+    width: 92px;
+    height: 92px;
+    background-color: white;
+    position: absolute;
+    top:11px;
+    left: 11px;
+}
+.avatar img {
+    width: 67px;
+    margin: 11px;
+}
+.ndcm .op15 {
+    width: 8px;
+    margin: -20px 0 0 84px;
+    display: block;
+}
+.cm {
+    width: 656px;
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    right: 11px;
+    top: 11px;
+}
+.ndcm .op16 {
+    width: 8px;
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.cmbt img {
+    position: absolute;
+    right: 23px;
+    bottom: 7px;
+}
+.cmbt a {
+    position: absolute;
+    right: 32px;
+    bottom: 9px;
+    font-family: avo;
+    font-size: 12px;
+    color: white;
+}
+.cmbelow {
+    width: 759px;
+    height: 65px;
+    background-color: #e7e8e9;
+    margin: 20px 0 0 20px;
+    position: relative;
+}
+.mnav {
+    width: 59px;
+    height: 59px;
+    background-color: white;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+.op17 {
+    position: absolute;
+    left: 55px;
+    top: 47px;
+}
+.cmbelow p {
+    font-family: avo;
+    font-size: 12px;
+    color: #f7931e;
+    position: absolute;
+    width: 672px;
+    top: 14px;
+    left: 81px;
+}
+.cmbelow i {
+    position: absolute;
+    font-family: avo;
+    font-size: 11px;
+    right: 10px;
+    bottom: 10px;
+}
+.op18 {
+    margin-top:9px;
+}
+.op19 {
+    margin-top: 215px;
+}
+.khoinhung {
+    width: 960px;
+    margin: 20px auto 0 auto;
+}
+.dke {
+    width: 940px;
+    margin: auto;
+    height: 2px;
+    background-color: #f7931e;
+}
+.lren h4 {
+    font-family: avo;
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+    margin: 10px auto 10px auto;
+    font-weight: 100;
+}
+.lren p {
+    font-family: mon;
+    font-size: 14px;
+    text-align: center;
+}
+.secon {
+    width: 380px;
+    height: 226px;
+    background-color: #e7e8e9;
+    position: relative;
+    margin: 20px 20px 0px 10px;
+    float: left;
+}
+.op31 {
+    width: 8px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.conhan {
+    width: 541px;
+    height: 145px;
+    display: inline-block;
+    margin: 40px 0 0 0;
+}
+.conhan a {
+    font-family: mon;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: black;
+}
+.conhan p {
+    font-family: avo;
+    font-size: 16x;
+    margin-top: 20px;
+}
+.cohang {
+    width: 960px;
+    margin: 20px auto 0px auto;
+    height: 75px;
+    display: inline-block;
+}
+.cohang a {
+    font-family: mon;
+    font-size: 15px;
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 100;
+}
+.cohang p {
+    font-family: avo;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.op32 {
+    margin-top: 20px;
+}
+/*end new detail html*/
+
+/*start about html*/
+.bando {
+    height: 456px;
+    background-color:#e7e8e9;
+    transform: translateY(48px);
+}
+.menu .op20 {
+    transform: translateY(-465px);
+}
+.menu .op21 {
+    transform: translateY(-501px);
+}
+.menu .op22 {
+    transform: translateY(-530px);
+}
+.map {
+    width: 723px;
+    margin: auto;
+    padding-top: 34px;
+    position: relative;
+}
+.adds {
+    position: absolute;
+    right: 142px;
+    bottom: 214px;
+}
+.op23 {
+    font-family: avo;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    right: 414px;
+    bottom: 245px;
+}
+.op24 {
+    position: absolute;
+    right: 155px;
+    bottom: 215px;
+    color: white;
+    font-family: avo;
+    font-size: 18px;
+}
+.op25 {
+    font-family: linea-basic-10;
+    font-size: 31px;
+    position: absolute;
+    right: 143px;
+    bottom: 173px;
+}
+/*end menu about*/
+.lanhdao {
+    background-image: url(pic/lanhdao.jpg);
+    width: 940px;
+    margin: auto;
+    height: 362px;
+    margin-top: 524px;
+    position: relative;
+}
+.fashion {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+.slogan {
+    font-family: avo;
+    font-size: 15px;
+    color: #f7921e;
+    position: absolute;
+    left: 0px;
+    top:60px;
+    width: 300px;
+}
+.trik {
+    width: 400px;
+    position: absolute;
+    top: 102px;
+    right: 30px;
+}
+.trik h4,.trik p {
+    font-family: mon;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.lanhdao .trik p {
+    font-family: avo;
+    text-transform: none;
+    margin-top: 20px;
+}
+.pvh,.ndt,.nqa {
+    font-family: avo;
+    font-size: 19px;
+    position: absolute;
+    top:324px;
+    left: 230px;
+}
+.lanhdao .ndt {
+    font-size: 17px;
+    top: 300px;
+    left: 109px;
+}
+.lanhdao .nqa {
+    font-size: 15px;
+    top: 277px;
+    left: 15px;
+}
+.timeline {
+    position: relative;
+    background-image: url(pic/timeline.png);
+    width: 28px;
+    height: 342px;
+    margin: 30px auto 0 auto;
+}
+.op26,.op28 {
+    position: absolute;
+    top: -9px;
+    left: 43px;
+}
+.op27,.op29 {
+    position: absolute;
+    top: 69px;
+    right: 38px;
+}
+.timeline .op28 {
+    top: 149px;
+}
+.timeline .op29 {
+    top: 227px;
+}
+.op30 {
+    position: absolute;
+    top: 305px;
+    left: 15px;
+}
+.op26 b,.op28 b,.op27 b,.op29 b,.op30 b {
+    position: absolute;
+    font-family: mon;
+    font-size: 27px;
+    color: #f7921e;
+    top: 7px;
+    left: -128px;
+}
+.op26 h4,.op28 h4,.op27 h4,.op29 h4,.op30 h4 {
+    position: absolute;
+    font-family: mon;
+    font-size: 15px;
+    top: 9px;
+    left: 61px;
+}
+.op26 p,.op28 p,.op27 p,.op29 p,.op30 p {
+    position: absolute;
+    font-family: avo;
+    font-size: 11px;
+    top: 25px;
+    left: 61px;
+}
+.timeline .op27 b,.timeline .op29 b {
+    right: -128px;
+    left: inherit;
+}
+.timeline .op27 h4,.timeline .op29 h4 {
+    right: 61px;
+    left: inherit;
+}
+.timeline .op27 p,.timeline .op29 p {
+    right: 61px;
+    left: inherit;
+}
+.timeline .op30 b {
+    left: -128px;
+}
+.timeline .op30 h4 {
+    left: 80px;
+    color: #f7921e;
+}
+.timeline .op30 p {
+    left: 80px;
+}
+/*end time line page about*/
+.noilt {
+    width: 960px;
+    margin: 33px auto 0 auto;
+}
+.ll {
+    height: 2px;
+    width: 960px;
+    background-color: #f7921e;
+}
+.noilt h3 {
+    font-family: as;
+    font-size: 48px;
+    font-weight: 100;
+    color: #f7921e;
+}
+.noilt p {
+    font-family: avo;
+    font-size: 14px;
+    color: #f7921e;
+}
+/*end css for page about */
+
+/*Start css for page contact*/
+.tiepvien {
+    background-image: url(pic/tiepvien.jpg);
+    width: 940px;
+    height: 215px;
+    margin: auto;
+    transform: translateY(48px);
+    position: relative;
+}
+.tiepvien h3 {
+    font-family: mon;
+    font-size: 21px;
+    color: #f7931e;
+    transform: rotate(-64deg);
+    display:block;
+    position:absolute;
+    top: 78px;
+    left: 21px;
+    text-transform: uppercase;
+}
+.tiepvien p {
+    font-family: avo;
+    font-size: 18px;
+    transform: rotate(-64deg);
+    display: block;
+    position: absolute;
+    top: 85px;
+    left: 54px;
+}
+.contact {
+    width: 940px;
+    height: 304px;
+    margin: auto;
+    background-color: #e7e8e9;
+    position: relative;
+    margin-top: 282px;
+}
+.cname,.cemail {
+    width: 373px;
+    height: 28px;
+    background-color: white;
+    position: absolute;
+    top: 29px;
+    left: 29px;
+}
+.op33,.op34 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.cname img,.cemail img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.cname p,.cemail p {
+    font-family: avo;
+    font-size: 14px;
+    position: absolute;
+    color: white;
+    left: 11px;
+    top: 3px;
+}
+.cemail {
+    top: 69px;
+    left: 29px;
+}
+.op33 input,.op34 input {
+    width: 275px;
+    height: 28px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: 0;
+}
+.op34 input {
+    width: 260px;
+}
+.sayhi {
+    width: 373px;
+    height: 166px;
+    background-color: white;
+    position: absolute;
+    top: 109px;
+    left: 29px;
+}
+.sayhi input {
+    position: absolute;
+    border: 0;
+    width: 352px;
+    padding-bottom: 131px;
+    font-family: avo;
+    font-size: 14px;
+    margin-left: 11px;
+    margin-top: 8px;
+}
+.sent img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.sent a {
+    font-family: mon;
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.mapw {
+    position: absolute;
+    right: 60px;
+    top: 43px;
+}
+.op35 {
+    margin-top: 20px;
+    width: 940px;
+}
+.op36 {
+    width: 940px;
+}
+.banding {
+    height: 23px;
+    width: 100%;
+    background-color: #e7e8e9;
+    transform: translateY(48px);
+}
+.op37 {
+    width: 100%;
+}
+.op38 {
+    width: 940px;
+    margin: auto;
+    position: relative;
+}
+.op38 p {
+    font-family: mon;
+    font-size: 30px;
+    color: #f7931e;
+    position: absolute;
+    top: -7px;
+}
+.ndbd {
+    width: 940px;
+    margin: auto;
+    margin-top: 90px;
+}
+.bd1 {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+.op39 {
+    margin-right: 0;
+}
+.bd1 img {
+    width: 300px;
+    height: 169px;
+}
+.bd1 a {
+    font-family: mon;
+    font-size: 20px;
+    color:#f7931e;
+    display: block;
+    text-align: center;
+    margin-top: 1px;
+}
+.sort {
+    width: 940px;
+    height: 28px;
+    padding-top: 213px;
+}
+.sort1 {
+    width: 220px;
+    height: 28px;
+    background-color: white;
+    border: 1px solid #f7931e;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.sort1 p {
+    font-family: avo;
+    font-size: 14px;
+    position: absolute;
+    left: 10px;
+    top: 2px;
+}
+.sort1 img {
+    position: absolute;
+    width: 8px;
+    right: 10px;
+    top: 10px;
+}
+.op40 {
+    margin-right: 0px;
+}
+.linetrai,.linephai {
+    width: 940px;
+    position: relative;
+    margin-top: 20px;
+    height: 39px;
+}
+.linetrai img {
+    position: absolute;
+    right: 0px;
+}
+.linetrai p {
+    position: absolute;
+    font-family: mon;
+    font-size: 18px;
+    color: white;
+    right: 138px;
+    top: 10px;
+}
+.spbd {
+    margin-top: 20px;
+    height: 647px;
+}
+.spbd1 {
+    width: 220px;
+    float: left;
+    margin-right: 20px;
+}
+.spbd1 img {
+    width: 220px;
+    height: 220px;
+}
+.asp {
+    position: relative;
+}
+.spbd .chip {
+    position: absolute;
+    right: 0px;
+    bottom: 4px;
+    width: 8px;
+    height: 16px;
+}
+.msp {
+    margin-top: 10px;
+}
+.msp1 {
+    width: 14px;
+    height: 14px;
+    float: left;
+    background-color: aqua;
+    margin-right: 10px;
+}
+.dksp {
+    width: 100%;
+    height: 1px;
+    background-color: #f7931e;
+    margin-top: 33px;
+}
+.spbd1 h5 {
+    font-family: mon;
+    font-size: 15px;
+    margin-top: 7px;
+}
+.spbd1 p {
+    font-family: avo;
+    font-size: 12px;
+    color: #757171;
+}
+.spbd .op41 {
+    margin-right: 0px;
+}
+
+/*tuy chinh mau*/
+.spbd .msop1 {
+    background-color: #fff200;
+    cursor: url("Ex/curs.cur"), auto;
+}
+.spbd .msop2 {
+    background-color: #f06eaa;
+    cursor: url("Ex/curs.cur"), auto;
+}
+.spbd .msop3 {
+    background-color: #ed1c24;
+    cursor: url("Ex/curs.cur"), auto;
+}
+.spbd .msop4 {
+    background-color: #8dc63f;
+    cursor: url("Ex/curs.cur"), auto;
+}
+.spbd .msop5 {
+    background-color: #00aeef;
+    cursor: url("Ex/curs.cur"), auto;
+}
+.spbd .msop6 {
+    background-color: #605ca8;
+    cursor: url("Ex/curs.cur"), auto;
+}
+.spbd .msop7 {
+    background-color: #f26522;
+    cursor: url("Ex/curs.cur"), auto;
+}
+/*end css tuy chinh mau*/
+
+.ndbd .op42 {
+    margin-top: 20px;
+}
+.dotnet {
+    width: 82px;
+    height: 14px;
+    margin: auto;
+    transform: translateY(9px);
+}
+.dot1 {
+    width: 14px;
+    height: 14px;
+    background-color: black;
+    float: left;
+    margin-right: 20px;
+    cursor: url("Ex/curs.cur"), auto;
+}
+.op43 {
+    background-color: #555555;
+}
+.linephai img {
+    position: absolute;
+    left: 0px;
+}
+.linephai p {
+    position: absolute;
+    font-family: mon;
+    font-size: 18px;
+    color: white;
+    left: 150px;
+    top: 10px;
+}
+.op44 p {
+    right: 144px;
+}
+.bg .op45 {
+    position: absolute;
+    font-family: mon;
+    font-size: 12px;
+    color: white;
+    margin: 3px 0 0 17px;
+    text-transform: uppercase;
+    padding: 0;
+    width: 50px;
+    height: 20px;
+}
+.bg .op45 {
+    position: absolute;
+    font-family: mon;
+    font-size: 12px;
+    color: white;
+    margin: 3px 0 0 5px;
+    text-transform: uppercase;
+    padding: 0;
+    width: 50px;
+    height: 20px;
+}
+.bg .op45:before {
+    content: "<";
+    margin-right:5px
+}
+.bg .op46 {
+    font-family: mon;
+    font-size: 19px;
+    color: #f7931e;
+    top: 0px;
+    left: 71px;
+}
+.ctpdd {
+    width: 940px;
+    height: 418px;
+    margin: 91px auto 0;
+}
+.pddlf {
+    width: 460px;
+    float: left;
+}
+.picdd {
+    width: 460px;
+    
+}
+.picdd1 {
+    width: 460px;
+    height: 257px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.picdd2 {
+    width: 140px;
+    height: 140px;
+    margin-right: 20px;
+    float: left;
+    position: relative;
+}
+.op47 {
+    margin-right: 0px;
+}
+.picdd1 .chip,.picdd2 .chip {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.pddrt {
+    width: 460px;
+    margin-left: 20px;
+    float: left;
+}
+.h3frt h3{
+    font-family: mon;
+    font-size: 30px;
+}
+.h3frt p {
+    font-family: avo;
+    font-size: 16px;
+}
+.h3frt b {
+    font-family: mon;
+    font-size: 24px;
+    font-weight: 100;
+}
+.kepdd {
+    width: 100%;
+    height: 1px;
+    background-color: #f7931e;
+    margin-top: 15px;
+}
+.ddpdd p {
+    width: 100%;
+    font-family: avo;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.sltc {
+    width: 100%;
+    height: 31px;
+}
+.sltc1 {
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    margin: 7px 10px 0 0;
+    float: left;
+}
+.opcl {
+    background-color: #00aeef;
+}
+.opc2 {
+    background-color: #acd373;
+}
+.opc3 {
+    background-color: #fff568;
+}
+.ssize {
+    width: 100%;
+    margin-top: 10px;
+}
+.ssiz {
+    width: 140px;
+    height: 31px;
+    background-color: #e7e8e9;
+    border: 1px solid #f7931e;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+.ssiz p {
+    font-family: avo;
+    font-size: 14px;
+    position: absolute;
+    left: 10px;
+    top: 3px;
+    margin-top: 0;
+}
+.ssiz img {
+    position: absolute;
+    right: 10px;
+    width: 9px;
+    top: 10px;
+    cursor: url("Ex/curs.cur"), auto;
+}
+.sstc {
+    width: 140px;
+    height: 31px;
+    background-color: #f7931e;
+    float: left;
+}
+.sstc a {
+    font-family: mon;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-top: 6px;
+    color: white;
+}
+.op48 {
+    margin-top: 60px;
+}
+.rating {
+    width: 100%;
+    margin-top: 10px;
+    height: 20px;
+}
+.rating p {
+    font-family: mon;
+    font-size: 12px;
+    float: left;
+    margin: 2px 10px 0 0;
+}
+.rating b {
+    float: left;
+    font-family: linea-basic-10;
+    color: #f7931e;
+    margin-right: 10px;
+    cursor: url("Ex/curs.cur"), auto;
+}
+.rating .nr {
+    color: black;
+}
+.shar {
+    width: 100%;
+    margin-top: 10px;
+}
+.shar p {
+    font-family: mon;
+    font-size: 12px;
+    float: left;
+}
+.shar img {
+    transform: translateY(-6px);
+    margin-left: 5px;
+    cursor: url("Ex/curs.cur"), auto;
+}
+.pddd {
+    width: 100%;
+    transform: translateY(-2px);
+}
+.pddd p {
+    font-family: mon;
+    font-size: 12px
+}
+.pddd .p2 {
+    font-family: avo;
+    font-size: 11px;
+    color: #898989;
+}
+.ctsd {
+    width: 940px;
+    margin: auto;
+}
+.ctsd .op49 {
+    right: 159px;
+}
+.ctsd .op50 {
+    height: 303px;
+}
+.menuphu {
+    width: 100%;
+    height: 36px;
+/*    background-color: #f7931e;*/
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    display: none;
+    opacity: 0.7;
+}
+.menuphu:hover {
+    opacity: 1;
+}
+.ndmnp {
+    width: 960px;
+    margin: auto;
+    height: 36px;
+    position: relative;
+}
+.ndmnp ul {
+    float: left;
+    position: absolute;
+    left: 251px;
+    top: 7px;
+}
+.ndmnp li {
+    float: left;
+    margin-right: 20px;
+}
+.ndmnp a {
+    font-family: avo;
+    font-size: 14px;
+    color: white;
+}
+.logophu {
+    float: left;
+}
+.logophu img {
+    height: 22px;
+    position: absolute;
+    left: 10px;
+    top: 7px;
+}
+/*end css of add pdata*/
+/*start css for 404 page */
+.stwdke ,.stwdk2 {
+    width: 100%;
+    height: 6px;
+    position: fixed;
+    top: 0px;
+    background-color: #f7921e;
+}
+.stwdk2 {
+    bottom: 0px;
+    top: inherit;
+}
+.p404 {
+    background-image: url(pic/xoe.png);
+    height: 100%;
+    position: fixed;
+    margin-top: 6px;
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fix404 {
+    width: 1020px;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+.fix404 img {
+    position: absolute;
+    top: 25px;
+    left: 269px;
+}
+.line404 {
+    position: relative;
+    bottom: 26px;
+    width: 100%;
+    height: 170px;
+    background-color: #ebebeb;
+    transform: translate(-28px,-176px);
+}
+.line404 img {
+    width: 879px;
+    display: block;
+    transform: translateX(11px);
+}
+.logo404 img {
+    width: 141px;
+    height: 108px;
+    margin: auto;
+    transform: translate(-350px,-129px);
+}
+.line404 h3 {
+    font-family: mon;
+    font-size: 24px;
+    position: absolute;
+    top: 27px;
+    left: 231px;
+    color: white;
+}
+.fixline404 {
+    width: 879px;
+    margin: auto;
+    position: relative;
+}
+.line404 p {
+    font-family: avo;
+    font-size: 12px;
+    position: absolute;
+    top: 64px;
+    left: 230px;
+    color: white;
+}
+.nut404 {
+    position: absolute;
+    top: 117px;
+    left: 211px;
+}
+.nut4041,.nut4042 {
+    font-family: mon;
+    font-size: 16px;
+    width: 103px;
+    height: 38px;
+    text-align: center;
+    border: 2px solid white;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 20px;
+    padding-top: 7px;
+    
+}
+.nut4041 a,.nut4042 a {
+    color: white;
+}
+
+/*css for hover effect */
+
+.nut {
+    border: 2px solid #F7931E;
+    transform: translate(0px,-2px);
+    }
+
+
+.ctone .fxgiay .ef2,.ctone .fxgiay .fxs2,.ctone .swgiay .sw1,.ctone .swgiay2 .sw2,.ctone .fxgiay .fxs4 {
+    width: 215px;
+    height: 181px;
+    display: inherit;
+    }
+.ctone .swgiay2 .ef2, .ctone .swgiay .ef1,.ctone .swgiay2 .ef1,.ctone .swgiay2 .fxs1,
+.ctone .swgiay .ef2,.ctone .swgiay .ef2,.ctone .swgiay2 .fxs2,.ctone .fxs2,.ctone .fxs4,.ctone .fxgiay .fxs1,.ctone .fxgiay .fxs3,.ctone .sw1,.ctone .sw2,.ctone .ef2,.ctone .fxgiay .ef1 {
+    display: none;
+}
+
+.cttwo .fxgiay .ef2,.cttwo .fxgiay .fxs2,.cttwo .swgiay .sw1,.cttwo .swgiay2 .sw2,.cttwo .fxgiay .fxs4 {
+    width: 253px;
+    height: 179px;
+    display: inherit;
+    }
+
+.cttwo .swgiay .ef2,.cttwo .swgiay .ef2,.cttwo .swgiay2 .fxs2,.cttwo .fxs2,.cttwo .fxs4,.cttwo .fxgiay .fxs1,.cttwo .fxgiay .fxs3,.cttwo .sw1,.cttwo .sw2,.cttwo .swgiay .ef1,.cttwo .swgiay2 .ef1,.cttwo .swgiay2 .fxs1,.cttwo .swgiay2 .ef2,.cttwo .ef2,.cttwo .fxgiay .ef1{
+    display: none;
+}
+
+.ctthree .fxgiay .ef2,.ctthree .fxgiay .fxs2,.ctthree .swgiay .sw1,.ctthree .swgiay2 .sw2,.ctthree .fxgiay .fxs4 {
+    width: 234px;
+    height: 201px;
+    display: inherit;
+    }
+
+.ctthree .fxgiay .fxs1,.ctthree .fxgiay .fxs3,.ctthree .fxs2,.ctthree .fxs4,.ctthree .sw1,.ctthree .sw2,.ctthree .swgiay .ef2,.ctthree .swgiay .ef2,.ctthree .swgiay2 .fxs2,.ctthree .swgiay .ef1,.ctthree .swgiay2 .ef1,.ctthree .swgiay2 .fxs1,.ctthree .swgiay2 .ef2,.ctthree .ef2,.ctthree .fxgiay .ef1 {
+    display: none;
+}
+
+.ct4 .fxgiay .ef2,.ct4 .fxgiay .fxs2,.ct4 .swgiay .sw1,.ct4 .swgiay2 .sw2,.ct4 .fxgiay .fxs4 {
+    width: 259px;
+    height: 163px;
+    display: inherit;
+    }
+
+.ct4 .fxgiay .fxs1,.ct4 .fxgiay .fxs3,.ct4 .fxs2,.ct4 .fxs4,.ct4 .sw1,.ct4 .sw2,.ct4 .swgiay .ef2,.ct4 .swgiay .ef2,.ct4 .swgiay2 .fxs2,.ct4 .swgiay .ef1,.ct4 .swgiay2 .ef1,.ct4 .swgiay2 .fxs1,.ct4 .swgiay2 .ef2,.ct4 .ef2,.ct4 .fxgiay .ef1 {
+    display: none;
+}
+
+.ct5 .fxgiay .ef2,.ct5 .fxgiay .fxs2,.ct5 .swgiay .sw1,.ct5 .swgiay2 .sw2,.ct5 .fxgiay .fxs4 {
+    width: 251px;
+    height: 178px;
+    display: inherit;
+    }
+
+.ct5 .fxgiay .fxs1,.ct5 .fxgiay .fxs3,.ct5 .fxs2,.ct5 .fxs4,.ct5 .sw1,.ct5 .sw2,.ct5 .swgiay .ef2,.ct5 .swgiay .ef2,.ct5 .swgiay2 .fxs2,.ct5 .swgiay .ef1,.ct5 .swgiay2 .ef1,.ct5 .swgiay2 .fxs1,.ct5 .swgiay2 .ef2,.ct5 .ef2,.ct5 .fxgiay .ef1 {
+    display: none;
+}
+/*end fx for giay ^^*/
+
+/*start effect tinh chinh */
+.muao {
+    opacity: 0.5;
+}
+.mua1,.mua3,.mua5,.mua7,.mua9 {
+    cursor: url("Ex/curs.cur"), auto;
+}
+.viewm {
+    width: 96px;
+    height: 152px;
+    position: absolute;
+    top: 66px;
+    left: 76px;
+    opacity: 0;
+    visibility: hidden;
+}
+.viewm a {
+    font-family: mon;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 75px;
+    left: 8px;
+    border: 1px solid white;
+    line-height: 30px;
+    padding-top: 2px;
+    text-align: center;
+    width: 79px;
+    height: 65px;
+}
+.op51 {
+    height: 250px;
+    position: relative;
+}
+.op52 {
+    opacity: 1;
+    visibility: visible;
+}
+.op52 .op55 {
+    visibility: visible;
+}
+.op53 {
+    opacity: 0;
+    visibility: hidden;
+}
+.op54 {
+    left: 72px;
+}
+/*end css fx giay and buy for index*/
+
+.buynow .buybtn,.buynow .comming {
+    opacity: 1;
+    visibility: visible;
+}
+.buybtn {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    background: rgba(249, 179, 97, 0.68);
+    opacity: 0;
+    top: 0;
+    visibility: hidden;
+}
+.buybtn a {
+    font-family: mon;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    margin: 172px auto 0 auto;
+    width: 89px;
+    height: 22px;
+    border: 1px solid white;
+    padding-top: 2px;
+    color: white;
+}
+.op55 {
+    position: absolute;
+    top: -87px;
+    left: -50px;
+    visibility: hidden;
+}
+
+.comming {
+    width: 218px;
+    height: 61px;
+    background: rgb(247, 147, 30);
+    position: absolute;
+    bottom: -60px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease 2s;
+}
+.comming p {
+    font-family: avo;
+    color: white;
+    font-size: 16px;
+    display: block;
+    margin: 14px 0;
+}
+
+/*end css hover & click*/
+
+/*css extrag*/
+.op56 p {
+    left: 172px;
+}
+.extrapd {
+    background-image: url(pic/ex.png);
+    background-size: cover;
+    width: 869px;
+    height: 413px;
+    margin: 20px auto 0;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.ex1,.ex2,.ex3,.ex4,.ex5,.ex6,.ex7,.ex8,.ex9 {
+    position: absolute;
+    top: 161px;
+    left: -35px;
+    cursor: url("Ex/curs.cur"), auto;
+}
+.ex2 {
+    top: 75px;
+    left: 134px;
+}
+.ex3 {
+    top: 244px;
+    left: 206px;
+}
+.ex4 {
+    top: 2px;
+    left: 292px;
+}
+.ex5 {
+    top: 163px;
+    left: 369px;
+}
+.ex6 {
+    top: 321px;
+    left: 448px;
+}
+.ex7 {
+    top: 67px;
+    left: 525px;
+}
+.ex8 {
+    top: 250px;
+    left: 607px;
+}
+.ex9 {
+    top: 148px;
+    left: 728px;
+}
+
+.extrapd .exfxa {
+    opacity: 1;
+}
+.exfxd {
+    opacity: 0;
+}
+.buyex {
+    
+}
+.exdrk {
+    position: absolute;
+}
+.bodytwo {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(pic/blur.jpg);
+    visibility: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.active{
+    visibility: visible;
+}
+.contentbd {
+    width: 503px;
+    height: 258px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.exfxct {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.op57 {
+    font-family: linea-arrows-10;
+    position: absolute;
+    font-size: 21px;
+    right: 5px;
+    top: 5px;
+    color: #f7931e;
+    cursor: url("Ex/curs.cur"), auto;
+}
+.exfxct img {
+    margin: 18px;
+    display: block;
+    float: left;
+}
+.op58 {
+    width: 220px;
+    float: left;
+    margin-top: 18px;
+}
+.op58 h5 {
+    font-family: mon;
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: #f7931e;
+    text-transform: capitalize;
+}
+.op58 p {
+    font-family: avo;
+    font-size: 13px;
+}
+.op58 a {
+    color: #f7931e;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: block;
+    font-family: mon;
+    font-size: 15px;
+    border: 1px solid #f7931e;
+    width: 113px;
+    padding-left: 8px;
+}
+.exdrk .menuphu {
+    position: absolute;
+}
+.op59 {
+    margin-top: 230px;
+}
+.op61,.op66 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(pic/blur.jpg);
+    visibility: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.addtc {
+    cursor: url("Ex/curs.cur"), auto;
+}
+body .active {
+    visibility: visible;
+}
+.op62 {
+    font-family: mon;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 21px;
+    color: #f7931e;
+    font-size: 20px;
+}
+.op63 {
+    font-family: linea-ecommerce-10;
+    font-size: 76px;
+    text-align: center;
+    margin-top: 31px;
+}
+.op64 {
+    color: #f7931e;
+    width: 170px;
+    border: 1px solid;
+    padding: 4px 9px 6px 9px;
+    font-family: avo;
+    margin: 24px auto 0;
+    display: block;
+}
+
+/*shadows fx*/
+
+.op67 {
+    position: absolute;
+    bottom: 52px;
+    left: 20px;
+}
+.op68 {
+    animation-name: shadowfx;
+    animation-duration: 1s;
+}
+@keyframes shadowfx {
+    50% {opacity: 0.5}
+    70% {opacity: 1}
+    75% {opacity: 0.7}
+    100% {opacity: 1}
+}
+
+/*zoom fx*/
+.zoom {
+	display:inline-block;
+	position: relative;
+}
+.zoom img {
+    display: block;
+}
+.danhso .op73:before {
+    content: '';
+    background-image: url(pic/only.png);
+    background-size: cover;
+    width: 39px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: -13px;
+    z-index: -3;
+}
+.danhso .op73 {
+    color: white;
+    position: relative;
+}
+.comment input {
+    width: 656px;
+    padding-bottom: 52px;
+    border: none;
+}
+/*responsive css*/
+
+ /* Smaller than standard 960 (devices and browsers) */
+  @media only screen and (max-width: 959px) {}
+
+  /* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+  /* All Mobile Sizes (devices and browser) */
+  @media only screen and (max-width: 767px) {}
